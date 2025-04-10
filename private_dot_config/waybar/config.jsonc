@@ -20,6 +20,7 @@
      // "power-profiles-daemon",
         "cpu",
         "memory",
+        "disk",
         "temperature",
         "backlight",
         "pulseaudio",
@@ -113,7 +114,7 @@
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        "format": "{}% "
     },
     "temperature": {
         // "thermal-zone": 2,
@@ -208,5 +209,10 @@
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
 		}
+    },
+    "disk": {
+	    "interval": 60,
+	    "format": "{free} ",
+	    "unit": "GB"
     }
 }
