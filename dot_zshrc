@@ -107,7 +107,7 @@ export EDITOR=nvim
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim='nvim'
 alias ssh='kitten ssh'
-alias icrm='podman run -it --rm -v /run/media/hcai/RHTINST:/root/.icrm/repository:z icrm:4.3.4 /bin/bash'
+alias icrm='podman run -it --rm -v /run/media/hcai/RHTINST:/root/.icrm/repository:z icrm:4.3.5 /bin/bash'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
