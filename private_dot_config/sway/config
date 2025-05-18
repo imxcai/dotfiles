@@ -32,7 +32,8 @@ set $menu $rofi_cmd -show combi -combi-modes drun -icon-theme elementary-kde run
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 # Requires: desktop-backgrounds-compat, swaybg
-output * bg /home/hcai/Pictures/woman.png fill
+#output * bg /home/hcai/Pictures/woman.png fill
+output * bg /home/hcai/Pictures/mou.png fill
 set $laptop eDP-1
 bindswitch --reload --locked lid:on output $laptop disable
 bindswitch --reload --locked lid:off output $laptop enable
