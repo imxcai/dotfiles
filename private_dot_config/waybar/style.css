@@ -2,7 +2,7 @@
 /* example usage */
 window#waybar {
 background: @background;
-color: @purple;
+color: @green;
 /* or cyan, green, orange, pink, red, yellow, foreground, background-darker etc. */
 }
 
